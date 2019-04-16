@@ -1,0 +1,527 @@
+2019-04-04 07:23:58:924 - info: [Appium] Welcome to Appium v1.8.1
+2019-04-04 07:23:58:925 - info: [Appium] Non-default server args:
+2019-04-04 07:23:58:926 - info: [Appium]   address: 127.0.0.1
+2019-04-04 07:23:58:926 - info: [Appium]   port: 5002
+2019-04-04 07:23:58:927 - info: [Appium]   bootstrapPort: 6003
+2019-04-04 07:23:58:927 - info: [Appium]   log: D:\Workspace\pythonworkspace\HelloPython\test_framework_43\data127.0.0.1.62001.log
+2019-04-04 07:23:58:927 - info: [Appium]   logTimestamp: true
+2019-04-04 07:23:59:113 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:5002
+2019-04-04 07:24:19:249 - info: [HTTP] --> POST /wd/hub/session
+2019-04-04 07:24:19:249 - info: [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"platformName":"Android","platformVersion":"4.4.2","deviceName":"Appium","appPackage":"com.mobivans.onestrokecharge","appActivity":"com.stub.stub01.Stub01","unicodeKeyboard":"True","udid":"127.0.0.1:62001","noReset":"True"}}
+2019-04-04 07:24:19:254 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":"4.4.2","deviceName":"Appium","appPackage":"com.mobivans.onestrokecharge","appActivity":"com.stub.stub01.Stub01","unicodeKeyboard":"True","udid":"127.0.0.1:62001","noReset":"True"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+2019-04-04 07:24:19:263 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1554362659262 (15:24:19 GMT+0800 (中国标准时间))
+2019-04-04 07:24:19:279 - warn: [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+2019-04-04 07:24:19:280 - warn: [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["platformName","platformVersion","deviceName","appPackage","appActivity","unicodeKeyboard","udid","noReset"]. Falling back to JSONWP protocol.
+2019-04-04 07:24:19:286 - info: [Appium] Creating new AndroidDriver (v2.7.0) session
+2019-04-04 07:24:19:287 - info: [Appium] Capabilities:
+2019-04-04 07:24:19:287 - info: [Appium]   platformName: Android
+2019-04-04 07:24:19:288 - info: [Appium]   platformVersion: 4.4.2
+2019-04-04 07:24:19:288 - info: [Appium]   deviceName: Appium
+2019-04-04 07:24:19:288 - info: [Appium]   appPackage: com.mobivans.onestrokecharge
+2019-04-04 07:24:19:289 - info: [Appium]   appActivity: com.stub.stub01.Stub01
+2019-04-04 07:24:19:289 - info: [Appium]   unicodeKeyboard: True
+2019-04-04 07:24:19:290 - info: [Appium]   udid: 127.0.0.1:62001
+2019-04-04 07:24:19:290 - info: [Appium]   noReset: True
+2019-04-04 07:24:19:300 - info: [debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"platformName":"Android","...
+2019-04-04 07:24:19:302 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-04-04 07:24:19:303 - warn: [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-04-04 07:24:19:311 - info: [BaseDriver] Session created with session id: d5a4e501-9621-441a-94f4-e7007292e219
+2019-04-04 07:24:19:312 - info: [debug] [AndroidDriver] Getting Java version
+2019-04-04 07:24:19:973 - info: [AndroidDriver] Java version is: 1.8.0_102
+2019-04-04 07:24:19:979 - info: [ADB] Checking whether adb is present
+2019-04-04 07:24:19:994 - warn: [ADB] Cannot sort build-tools folders ["21.1.2","23.0.1","android-4.4W"] by semantic version names.
+2019-04-04 07:24:19:995 - warn: [ADB] Falling back to sorting by modification date. Original error: Invalid Version: android-4.4W
+2019-04-04 07:24:19:999 - info: [ADB] Found 3 'build-tools' folders under 'D:\AndroidADT\sdk' (newest first):
+2019-04-04 07:24:19:999 - info: [ADB]     D:/AndroidADT/sdk/build-tools/android-4.4W
+2019-04-04 07:24:20:000 - info: [ADB]     D:/AndroidADT/sdk/build-tools/23.0.1
+2019-04-04 07:24:20:001 - info: [ADB]     D:/AndroidADT/sdk/build-tools/21.1.2
+2019-04-04 07:24:20:002 - info: [ADB] Using adb.exe from D:\AndroidADT\sdk\platform-tools\adb.exe
+2019-04-04 07:24:20:003 - info: [AndroidDriver] Retrieving device list
+2019-04-04 07:24:20:004 - info: [debug] [ADB] Trying to find a connected android device
+2019-04-04 07:24:20:006 - info: [debug] [ADB] Getting connected devices...
+2019-04-04 07:24:20:125 - info: [debug] [ADB] 2 device(s) connected
+2019-04-04 07:24:20:126 - info: [AndroidDriver] Using device: 127.0.0.1:62001
+2019-04-04 07:24:20:129 - info: [debug] [ADB] Setting device id to 127.0.0.1:62001
+2019-04-04 07:24:20:130 - info: [AndroidDriver] App file was not listed, instead we're going to run com.mobivans.onestrokecharge directly on the device
+2019-04-04 07:24:20:130 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2019-04-04 07:24:20:135 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages com.mobivans.onestrokecharge'
+2019-04-04 07:24:21:356 - info: [AndroidDriver] Starting Android session
+2019-04-04 07:24:21:358 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+2019-04-04 07:24:21:528 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+2019-04-04 07:24:21:697 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2019-04-04 07:24:21:701 - info: [debug] [ADB] Getting install status for io.appium.settings
+2019-04-04 07:24:21:702 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages io.appium.settings'
+2019-04-04 07:24:22:983 - info: [debug] [ADB] App is installed
+2019-04-04 07:24:22:991 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2019-04-04 07:24:22:994 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+2019-04-04 07:24:23:327 - info: [ADB] Checking whether aapt is present
+2019-04-04 07:24:23:332 - info: [ADB] Using aapt.exe from D:\AndroidADT\sdk\build-tools\android-4.4W\aapt.exe
+2019-04-04 07:24:23:531 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2019-04-04 07:24:23:533 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+2019-04-04 07:24:23:798 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-04-04 07:24:23:800 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+2019-04-04 07:24:24:146 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 19
+2019-04-04 07:24:24:146 - info: [debug] [ADB] Device API level: 19
+2019-04-04 07:24:24:147 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+2019-04-04 07:24:25:711 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2019-04-04 07:24:25:711 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2019-04-04 07:24:25:715 - info: [debug] [Logcat] Starting logcat capture
+2019-04-04 07:24:25:840 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2019-04-04 07:24:25:841 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2019-04-04 07:24:25:843 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 install C\:\\Users\\Denny\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk'
+2019-04-04 07:24:27:961 - info: [debug] [ADB] Install command stdout: [100%] /data/local/tmp/UnicodeIME-debug.apk
+2019-04-04 07:24:27:962 - info: [debug] [ADB] 	pkg: /data/local/tmp/UnicodeIME-debug.apk
+2019-04-04 07:24:27:962 - info: [debug] [ADB] Failure [INSTALL_FAILED_ALREADY_EXISTS]
+2019-04-04 07:24:27:963 - info: [debug] [ADB] Application 'C:\Users\Denny\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-ime\bin\UnicodeIME-debug.apk' already installed. Continuing.
+2019-04-04 07:24:27:965 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings get secure default_input_method'
+2019-04-04 07:24:29:266 - info: [debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+2019-04-04 07:24:29:267 - info: [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2019-04-04 07:24:29:268 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ime enable io.appium.android.ime/.UnicodeIME'
+2019-04-04 07:24:31:086 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ime set io.appium.android.ime/.UnicodeIME'
+2019-04-04 07:24:32:338 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2019-04-04 07:24:32:339 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2019-04-04 07:24:32:340 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages io.appium.unlock'
+2019-04-04 07:24:33:334 - info: [debug] [ADB] App is installed
+2019-04-04 07:24:33:334 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2019-04-04 07:24:33:335 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.unlock'
+2019-04-04 07:24:33:526 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2019-04-04 07:24:33:527 - info: [ADB] Getting device platform version
+2019-04-04 07:24:33:528 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+2019-04-04 07:24:33:655 - info: [debug] [ADB] Current device property 'ro.build.version.release': 4.4.2
+2019-04-04 07:24:33:657 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+2019-04-04 07:24:34:595 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+2019-04-04 07:24:34:720 - info: [debug] [ADB] Current device property 'ro.product.model': vivo Y613F
+2019-04-04 07:24:34:721 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+2019-04-04 07:24:34:830 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': BBK
+2019-04-04 07:24:34:832 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2019-04-04 07:24:34:832 - info: [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2019-04-04 07:24:34:833 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2019-04-04 07:24:34:837 - info: [debug] [ADB] Forwarding system: 6003 to device: 4724
+2019-04-04 07:24:34:837 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:6003 tcp\:4724'
+2019-04-04 07:24:34:949 - info: [debug] [UiAutomator] Starting UiAutomator
+2019-04-04 07:24:34:950 - info: [debug] [UiAutomator] Moving to state 'starting'
+2019-04-04 07:24:34:951 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2019-04-04 07:24:34:951 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-04-04 07:24:34:952 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push C\:\\Users\\Denny\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-04-04 07:24:35:087 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2019-04-04 07:24:35:089 - info: [debug] [ADB] Getting all processes with uiautomator
+2019-04-04 07:24:35:090 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+2019-04-04 07:24:35:272 - info: [ADB] No uiautomator process found to kill, continuing...
+2019-04-04 07:24:35:273 - info: [debug] [UiAutomator] Starting UIAutomator
+2019-04-04 07:24:35:274 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.mobivans.onestrokecharge","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-04-04 07:24:36:068 - info: [debug] [UiAutomator] Moving to state 'online'
+2019-04-04 07:24:36:077 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2019-04-04 07:24:36:079 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+2019-04-04 07:24:36:105 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-04-04 07:24:36:211 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2019-04-04 07:24:36:214 - info: [debug] [ADB] Device API level: 19
+2019-04-04 07:24:36:217 - info: [debug] [ADB] Running 'D:\AndroidADT\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.mobivans.onestrokecharge/com.stub.stub01.Stub01 -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-04 07:24:41:811 - info: [Appium] New AndroidDriver session created successfully, session d5a4e501-9621-441a-94f4-e7007292e219 added to master session list
+2019-04-04 07:24:41:813 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1554362681813 (15:24:41 GMT+0800 (中国标准时间))
+2019-04-04 07:24:41:817 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"4.4.2","deviceName":"Appium","appPackage":"com.mobivans.onestrokecharge","appActivity":"com.stub.stub01.Stub01","unicodeKeyboard":true,"udid":"127.0.0.1:62001","noReset":true},"platformName":"Android","platformVersion":"4.4.2","deviceName":"127.0.0.1:62001","appPackage":"com.mobivans.onestrokecharge","appActivity":"com.stub.stub01.Stub01","unicodeKeyboard":true,"udid":"127.0.0.1:62001","noReset":true,"deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"vivo Y613F","deviceManufacturer":"BBK"}
+2019-04-04 07:24:41:829 - info: [HTTP] <-- POST /wd/hub/session 200 22575 ms - 841
+2019-04-04 07:24:41:830 - info: [HTTP] 
+2019-04-04 07:24:44:836 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:24:44:837 - info: [HTTP] {"using":"name","value":"记一笔","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:24:44:842 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["name","记一笔","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:24:44:859 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:24:44:862 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:24:44:864 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"记一笔","context":"","multiple":false}}
+2019-04-04 07:24:44:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"记一笔","context":"","multiple":false}}
+2019-04-04 07:24:44:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:24:44:886 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:24:44:886 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '记一笔' using 'NAME' with the contextId: '' multiple: false
+2019-04-04 07:24:44:887 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=记一笔, INSTANCE=0]
+2019-04-04 07:24:45:620 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=记一笔, INSTANCE=0]
+2019-04-04 07:24:45:675 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"1"},"status":0}
+2019-04-04 07:24:45:677 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:24:45:679 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+2019-04-04 07:24:45:684 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 845 ms - 87
+2019-04-04 07:24:45:684 - info: [HTTP] 
+2019-04-04 07:24:45:693 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/1/click
+2019-04-04 07:24:45:693 - info: [HTTP] {"id":"1","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:24:45:695 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["1","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:24:45:699 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-04-04 07:24:45:703 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-04-04 07:24:45:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:24:45:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-04 07:24:49:007 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:24:49:008 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:24:49:009 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2019-04-04 07:24:49:012 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/1/click 200 3318 ms - 76
+2019-04-04 07:24:49:013 - info: [HTTP] 
+2019-04-04 07:24:51:017 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:24:51:018 - info: [HTTP] {"using":"id","value":"com.mobivans.onestrokecharge:id/add_txt_Pay","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:24:51:021 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.mobivans.onestrokecharge:id/add_txt_Pay","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:24:51:023 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:24:51:023 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:24:51:023 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobivans.onestrokecharge:id/add_txt_Pay","context":"","multiple":false}}
+2019-04-04 07:24:51:027 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobivans.onestrokecharge:id/add_txt_Pay","context":"","multiple":false}}
+2019-04-04 07:24:51:028 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:24:51:029 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:24:51:030 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.mobivans.onestrokecharge:id/add_txt_Pay' using 'ID' with the contextId: '' multiple: false
+2019-04-04 07:24:51:034 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/add_txt_Pay]
+2019-04-04 07:24:51:050 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"2"},"status":0}
+2019-04-04 07:24:51:051 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:24:51:053 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+2019-04-04 07:24:51:055 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 37 ms - 87
+2019-04-04 07:24:51:055 - info: [HTTP] 
+2019-04-04 07:24:51:062 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/2/click
+2019-04-04 07:24:51:067 - info: [HTTP] {"id":"2","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:24:51:068 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["2","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:24:51:072 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2019-04-04 07:24:51:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2019-04-04 07:24:51:080 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:24:51:080 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-04 07:24:51:429 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:24:51:430 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:24:51:431 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2019-04-04 07:24:51:433 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/2/click 200 370 ms - 76
+2019-04-04 07:24:51:433 - info: [HTTP] 
+2019-04-04 07:24:51:438 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:24:51:439 - info: [HTTP] {"using":"id","value":"com.mobivans.onestrokecharge:id/add_rv_cateGrid","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:24:51:440 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.mobivans.onestrokecharge:id/add_rv_cateGrid","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:24:51:443 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:24:51:443 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:24:51:443 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobivans.onestrokecharge:id/add_rv_cateGrid","context":"","multiple":false}}
+2019-04-04 07:24:51:450 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobivans.onestrokecharge:id/add_rv_cateGrid","context":"","multiple":false}}
+2019-04-04 07:24:51:450 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:24:51:450 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:24:51:450 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.mobivans.onestrokecharge:id/add_rv_cateGrid' using 'ID' with the contextId: '' multiple: false
+2019-04-04 07:24:51:451 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/add_rv_cateGrid]
+2019-04-04 07:24:55:227 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"3"},"status":0}
+2019-04-04 07:24:55:228 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:24:55:229 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"3"}
+2019-04-04 07:24:55:231 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 3793 ms - 87
+2019-04-04 07:24:55:231 - info: [HTTP] 
+2019-04-04 07:24:55:239 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/3/elements
+2019-04-04 07:24:55:240 - info: [HTTP] {"using":"class name","value":"android.widget.TextView","id":"3","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:24:55:241 - info: [debug] [W3C] Calling AppiumDriver.findElementsFromElement() with args: ["class name","android.widget.TextView","3","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:24:55:245 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:24:55:246 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:24:55:246 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"3","multiple":true}}
+2019-04-04 07:24:55:252 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"3","multiple":true}}
+2019-04-04 07:24:55:256 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:24:55:261 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:24:55:262 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.widget.TextView' using 'CLASS_NAME' with the contextId: '3' multiple: true
+2019-04-04 07:24:55:262 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView]
+2019-04-04 07:24:55:263 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView]
+2019-04-04 07:24:55:263 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 0
+2019-04-04 07:24:55:304 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 1
+2019-04-04 07:24:55:319 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 2
+2019-04-04 07:24:55:377 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 3
+2019-04-04 07:24:55:459 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 4
+2019-04-04 07:24:55:548 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 5
+2019-04-04 07:24:55:597 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 6
+2019-04-04 07:24:55:651 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 7
+2019-04-04 07:24:55:698 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 8
+2019-04-04 07:24:55:742 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 9
+2019-04-04 07:24:55:964 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 10
+2019-04-04 07:24:55:986 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 11
+2019-04-04 07:24:56:023 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 12
+2019-04-04 07:24:56:067 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 13
+2019-04-04 07:24:56:311 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 14
+2019-04-04 07:24:56:334 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 15
+2019-04-04 07:24:56:375 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 16
+2019-04-04 07:24:56:472 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 17
+2019-04-04 07:24:56:547 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 18
+2019-04-04 07:24:56:655 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 19
+2019-04-04 07:24:56:813 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 20
+2019-04-04 07:24:56:835 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 21
+2019-04-04 07:24:56:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 22
+2019-04-04 07:24:56:976 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 23
+2019-04-04 07:24:57:022 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 24
+2019-04-04 07:24:57:079 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 25
+2019-04-04 07:24:57:152 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 26
+2019-04-04 07:24:57:207 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 27
+2019-04-04 07:24:57:378 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[3] is 3, counter: 28
+2019-04-04 07:24:57:457 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":[{"ELEMENT":"4"},{"ELEMENT":"5"},{"ELEMENT":"6"},{"ELEMENT":"7"},{"ELEMENT":"8"},{"ELEMENT":"9"},{"ELEMENT":"10"},{"ELEMENT":"11"},{"ELEMENT":"12"},{"ELEMENT":"13"},{"ELEMENT":"14"},{"ELEMENT":"15"},{"ELEMENT":"16"},{"ELEMENT":"17"},{"ELEMENT":"18"},{"ELEMENT":"19"},{"ELEMENT":"20"},{"ELEMENT":"21"},{"ELEMENT":"22"},{"ELEMENT":"23"},{"ELEMENT":"24"},{"ELEMENT":"25"},{"ELEMENT":"26"},{"ELEMENT":"27"},{"ELEMENT":"28"},{"ELEMENT":"29"},{"ELEMENT":"30"},{"ELEMENT":"31"}],"status":0}
+2019-04-04 07:24:57:457 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:24:57:459 - info: [debug] [MJSONWP] Responding to client with driver.findElementsFromElement() result: [{"ELEMENT":"4"},{"ELEMENT":"5"},{"ELEMENT":"6"},{"ELEMENT":"7"},{"ELEMENT":"8"},{"ELEMENT":"9"},{"ELEMENT":"10"},{"ELEMENT":"11"},{"ELEMENT":"12"},{"ELEMENT":"13"},{"ELEMENT":"14"},{"ELEMENT":"15"},{"ELEMENT":"16"},{"ELEMENT":"17"},{"ELEMENT":"18"},{"ELEMENT":"19"},{"ELEMENT":"20"},{"ELEMENT":"21"},{"ELEMENT":"22"},{"ELEMENT":"23"},{"ELEMENT":"24"},{"ELEMENT":"25"},{"ELEMENT":"26"},{"ELEMENT":"27"},{"ELEMENT":"28"},{"ELEMENT":"29"},{"ELEMENT":"30"},{"ELEMENT":"31"}]
+2019-04-04 07:24:57:460 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/3/elements 200 2221 ms - 543
+2019-04-04 07:24:57:460 - info: [HTTP] 
+2019-04-04 07:24:57:466 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/21/click
+2019-04-04 07:24:57:467 - info: [HTTP] {"id":"21","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:24:57:467 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["21","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:24:57:471 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"21"}}
+2019-04-04 07:24:57:475 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"21"}}
+2019-04-04 07:24:57:481 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:24:57:482 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-04 07:25:00:789 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:25:00:790 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:00:791 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2019-04-04 07:25:00:793 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/21/click 200 3326 ms - 76
+2019-04-04 07:25:00:794 - info: [HTTP] 
+2019-04-04 07:25:00:805 - info: [HTTP] --> GET /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/21/text
+2019-04-04 07:25:00:805 - info: [HTTP] {}
+2019-04-04 07:25:00:806 - info: [debug] [W3C] Calling AppiumDriver.getText() with args: ["21","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:00:810 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"21"}}
+2019-04-04 07:25:00:835 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"21"}}
+2019-04-04 07:25:00:835 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:00:836 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2019-04-04 07:25:00:931 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"住房","status":0}
+2019-04-04 07:25:00:932 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:00:934 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "住房"
+2019-04-04 07:25:00:935 - info: [HTTP] <-- GET /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/21/text 200 130 ms - 80
+2019-04-04 07:25:00:936 - info: [HTTP] 
+2019-04-04 07:25:00:943 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:25:00:944 - info: [HTTP] {"using":"id","value":"add_et_remark","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:00:944 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","add_et_remark","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:00:948 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:01:877 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:01:878 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"add_et_remark","context":"","multiple":false}}
+2019-04-04 07:25:01:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"add_et_remark","context":"","multiple":false}}
+2019-04-04 07:25:01:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:01:886 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:01:886 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'add_et_remark' using 'ID' with the contextId: '' multiple: false
+2019-04-04 07:25:01:887 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/add_et_remark]
+2019-04-04 07:25:01:961 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"32"},"status":0}
+2019-04-04 07:25:01:962 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:01:963 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"32"}
+2019-04-04 07:25:01:964 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 1021 ms - 88
+2019-04-04 07:25:01:965 - info: [HTTP] 
+2019-04-04 07:25:01:971 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/32/value
+2019-04-04 07:25:01:971 - info: [HTTP] {"text":"支出类型：住房","value":["支","出","类","型","：","住","房"],"id":"32","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:01:972 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [["支","出","类","型","：","住","房"],"32","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:01:976 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"32","text":"支出类型：住房","replace":false,"unicodeKeyboard":true}}
+2019-04-04 07:25:01:979 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"32","text":"支出类型：住房","replace":false,"unicodeKeyboard":true}}
+2019-04-04 07:25:01:985 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:01:985 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-04-04 07:25:01:986 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 32
+2019-04-04 07:25:02:032 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-04-04 07:25:05:139 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2019-04-04 07:25:05:249 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2019-04-04 07:25:05:261 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending Unicode text to element: 支出类型：住房
+2019-04-04 07:25:05:262 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Encoded text: &ZS9R+nx7V4v,Gk9PYj8-
+2019-04-04 07:25:08:777 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:08:778 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:25:08:779 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: true
+2019-04-04 07:25:08:781 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/32/value 200 6810 ms - 76
+2019-04-04 07:25:08:781 - info: [HTTP] 
+2019-04-04 07:25:08:786 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:25:08:787 - info: [HTTP] {"using":"id","value":"keyb_btn_9","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:08:788 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","keyb_btn_9","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:08:791 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:08:791 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:08:792 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"keyb_btn_9","context":"","multiple":false}}
+2019-04-04 07:25:08:812 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"keyb_btn_9","context":"","multiple":false}}
+2019-04-04 07:25:08:813 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:08:813 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:08:813 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'keyb_btn_9' using 'ID' with the contextId: '' multiple: false
+2019-04-04 07:25:08:814 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/keyb_btn_9]
+2019-04-04 07:25:08:981 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"33"},"status":0}
+2019-04-04 07:25:08:982 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:08:983 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"33"}
+2019-04-04 07:25:08:985 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 198 ms - 88
+2019-04-04 07:25:08:985 - info: [HTTP] 
+2019-04-04 07:25:09:022 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/33/click
+2019-04-04 07:25:09:023 - info: [HTTP] {"id":"33","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:09:024 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["33","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:09:027 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"33"}}
+2019-04-04 07:25:09:049 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"33"}}
+2019-04-04 07:25:09:050 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:09:050 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-04 07:25:09:749 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:25:09:750 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:09:751 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2019-04-04 07:25:09:753 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/33/click 200 730 ms - 76
+2019-04-04 07:25:09:753 - info: [HTTP] 
+2019-04-04 07:25:10:262 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:25:10:262 - info: [HTTP] {"using":"id","value":"keyb_btn_0","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:10:263 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","keyb_btn_0","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:10:266 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:10:267 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:10:268 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"keyb_btn_0","context":"","multiple":false}}
+2019-04-04 07:25:10:273 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"keyb_btn_0","context":"","multiple":false}}
+2019-04-04 07:25:10:274 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:10:275 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:10:276 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'keyb_btn_0' using 'ID' with the contextId: '' multiple: false
+2019-04-04 07:25:10:276 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/keyb_btn_0]
+2019-04-04 07:25:10:344 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"34"},"status":0}
+2019-04-04 07:25:10:345 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:10:346 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"34"}
+2019-04-04 07:25:10:347 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 85 ms - 88
+2019-04-04 07:25:10:347 - info: [HTTP] 
+2019-04-04 07:25:10:359 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/34/click
+2019-04-04 07:25:10:359 - info: [HTTP] {"id":"34","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:10:360 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["34","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:10:362 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"34"}}
+2019-04-04 07:25:10:368 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"34"}}
+2019-04-04 07:25:10:380 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:10:381 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-04 07:25:10:749 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:25:10:750 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:10:751 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2019-04-04 07:25:10:754 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/34/click 200 394 ms - 76
+2019-04-04 07:25:10:754 - info: [HTTP] 
+2019-04-04 07:25:11:259 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:25:11:260 - info: [HTTP] {"using":"id","value":"keyb_btn_8","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:11:261 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","keyb_btn_8","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:11:263 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:11:264 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:11:264 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"keyb_btn_8","context":"","multiple":false}}
+2019-04-04 07:25:11:271 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"keyb_btn_8","context":"","multiple":false}}
+2019-04-04 07:25:11:272 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:11:272 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:11:273 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'keyb_btn_8' using 'ID' with the contextId: '' multiple: false
+2019-04-04 07:25:11:273 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/keyb_btn_8]
+2019-04-04 07:25:11:617 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:11:619 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"35"},"status":0}
+2019-04-04 07:25:11:621 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"35"}
+2019-04-04 07:25:11:623 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 364 ms - 88
+2019-04-04 07:25:11:624 - info: [HTTP] 
+2019-04-04 07:25:11:632 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/35/click
+2019-04-04 07:25:11:632 - info: [HTTP] {"id":"35","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:11:633 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["35","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:11:635 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"35"}}
+2019-04-04 07:25:11:655 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"35"}}
+2019-04-04 07:25:11:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:11:657 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-04 07:25:12:061 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:25:12:062 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:12:063 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2019-04-04 07:25:12:064 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/35/click 200 432 ms - 76
+2019-04-04 07:25:12:065 - info: [HTTP] 
+2019-04-04 07:25:12:573 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:25:12:573 - info: [HTTP] {"using":"id","value":"keyb_btn_2","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:12:574 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","keyb_btn_2","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:12:577 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:12:578 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:12:578 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"keyb_btn_2","context":"","multiple":false}}
+2019-04-04 07:25:12:585 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"keyb_btn_2","context":"","multiple":false}}
+2019-04-04 07:25:12:585 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:12:586 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:12:586 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'keyb_btn_2' using 'ID' with the contextId: '' multiple: false
+2019-04-04 07:25:12:587 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/keyb_btn_2]
+2019-04-04 07:25:12:630 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:12:631 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"36"},"status":0}
+2019-04-04 07:25:12:632 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"36"}
+2019-04-04 07:25:12:633 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 60 ms - 88
+2019-04-04 07:25:12:634 - info: [HTTP] 
+2019-04-04 07:25:12:638 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/36/click
+2019-04-04 07:25:12:640 - info: [HTTP] {"id":"36","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:12:641 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["36","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:12:643 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"36"}}
+2019-04-04 07:25:12:650 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"36"}}
+2019-04-04 07:25:12:655 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:12:655 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-04 07:25:12:983 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:25:12:983 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:12:985 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2019-04-04 07:25:12:986 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/36/click 200 347 ms - 76
+2019-04-04 07:25:12:987 - info: [HTTP] 
+2019-04-04 07:25:13:494 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element
+2019-04-04 07:25:13:494 - info: [HTTP] {"using":"id","value":"com.mobivans.onestrokecharge:id/keyb_btn_finish","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:13:495 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.mobivans.onestrokecharge:id/keyb_btn_finish","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:13:499 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:13:499 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:13:499 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobivans.onestrokecharge:id/keyb_btn_finish","context":"","multiple":false}}
+2019-04-04 07:25:13:504 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobivans.onestrokecharge:id/keyb_btn_finish","context":"","multiple":false}}
+2019-04-04 07:25:13:504 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:13:505 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:13:505 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.mobivans.onestrokecharge:id/keyb_btn_finish' using 'ID' with the contextId: '' multiple: false
+2019-04-04 07:25:13:505 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/keyb_btn_finish]
+2019-04-04 07:25:13:639 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"37"},"status":0}
+2019-04-04 07:25:13:643 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:13:644 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"37"}
+2019-04-04 07:25:13:645 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element 200 151 ms - 88
+2019-04-04 07:25:13:646 - info: [HTTP] 
+2019-04-04 07:25:13:652 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/37/click
+2019-04-04 07:25:13:653 - info: [HTTP] {"id":"37","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:13:653 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["37","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:13:656 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"37"}}
+2019-04-04 07:25:13:661 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"37"}}
+2019-04-04 07:25:13:663 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:13:664 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-04 07:25:14:558 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+2019-04-04 07:25:14:558 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:14:560 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2019-04-04 07:25:14:562 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/37/click 200 909 ms - 76
+2019-04-04 07:25:14:562 - info: [HTTP] 
+2019-04-04 07:25:14:568 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/elements
+2019-04-04 07:25:14:569 - info: [HTTP] {"using":"id","value":"com.mobivans.onestrokecharge:id/account_item_detail","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:14:570 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["id","com.mobivans.onestrokecharge:id/account_item_detail","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:14:576 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:14:578 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:14:578 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobivans.onestrokecharge:id/account_item_detail","context":"","multiple":true}}
+2019-04-04 07:25:14:586 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.mobivans.onestrokecharge:id/account_item_detail","context":"","multiple":true}}
+2019-04-04 07:25:14:587 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:14:588 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:14:588 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.mobivans.onestrokecharge:id/account_item_detail' using 'ID' with the contextId: '' multiple: true
+2019-04-04 07:25:14:588 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:14:589 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:14:589 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2019-04-04 07:25:14:589 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:15:814 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2019-04-04 07:25:15:814 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:16:023 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+2019-04-04 07:25:16:026 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=2, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:16:105 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+2019-04-04 07:25:16:106 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=3, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:18:054 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+2019-04-04 07:25:18:056 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:18:056 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=4, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:18:057 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (5)
+2019-04-04 07:25:18:057 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=5, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:18:058 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (6)
+2019-04-04 07:25:18:059 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=6, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_detail]
+2019-04-04 07:25:18:059 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":[{"ELEMENT":"38"},{"ELEMENT":"39"},{"ELEMENT":"40"},{"ELEMENT":"41"},{"ELEMENT":"42"},{"ELEMENT":"43"}],"status":0}
+2019-04-04 07:25:18:063 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"38"},{"ELEMENT":"39"},{"ELEMENT":"40"},{"ELEMENT":"41"},{"ELEMENT":"42"},{"ELEMENT":"43"}]
+2019-04-04 07:25:18:064 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/elements 200 3496 ms - 175
+2019-04-04 07:25:18:065 - info: [HTTP] 
+2019-04-04 07:25:18:073 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/38/element
+2019-04-04 07:25:18:074 - info: [HTTP] {"using":"id","value":"account_item_txt_remark","id":"38","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:18:075 - info: [debug] [W3C] Calling AppiumDriver.findElementFromElement() with args: ["id","account_item_txt_remark","38","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:18:078 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:18:079 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:18:079 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"account_item_txt_remark","context":"38","multiple":false}}
+2019-04-04 07:25:18:084 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"account_item_txt_remark","context":"38","multiple":false}}
+2019-04-04 07:25:18:084 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:18:084 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:18:085 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'account_item_txt_remark' using 'ID' with the contextId: '38' multiple: false
+2019-04-04 07:25:18:085 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_txt_remark]
+2019-04-04 07:25:18:342 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"44"},"status":0}
+2019-04-04 07:25:18:547 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:18:549 - info: [debug] [MJSONWP] Responding to client with driver.findElementFromElement() result: {"ELEMENT":"44"}
+2019-04-04 07:25:18:550 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/38/element 200 477 ms - 88
+2019-04-04 07:25:18:550 - info: [HTTP] 
+2019-04-04 07:25:18:559 - info: [HTTP] --> GET /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/44/text
+2019-04-04 07:25:18:559 - info: [HTTP] {}
+2019-04-04 07:25:18:560 - info: [debug] [W3C] Calling AppiumDriver.getText() with args: ["44","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:18:563 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"44"}}
+2019-04-04 07:25:18:567 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"44"}}
+2019-04-04 07:25:18:568 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:18:568 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2019-04-04 07:25:18:607 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"支出类型：住房","status":0}
+2019-04-04 07:25:18:608 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:18:609 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "支出类型：住房"
+2019-04-04 07:25:18:611 - info: [HTTP] <-- GET /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/44/text 200 52 ms - 95
+2019-04-04 07:25:18:612 - info: [HTTP] 
+2019-04-04 07:25:18:619 - info: [HTTP] --> POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/38/element
+2019-04-04 07:25:18:619 - info: [HTTP] {"using":"id","value":"account_item_txt_money","id":"38","sessionId":"d5a4e501-9621-441a-94f4-e7007292e219"}
+2019-04-04 07:25:18:620 - info: [debug] [W3C] Calling AppiumDriver.findElementFromElement() with args: ["id","account_item_txt_money","38","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:18:624 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator, name
+2019-04-04 07:25:18:625 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-04 07:25:18:625 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"account_item_txt_money","context":"38","multiple":false}}
+2019-04-04 07:25:18:629 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"account_item_txt_money","context":"38","multiple":false}}
+2019-04-04 07:25:18:633 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:18:633 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-04 07:25:18:634 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'account_item_txt_money' using 'ID' with the contextId: '38' multiple: false
+2019-04-04 07:25:18:636 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.mobivans.onestrokecharge:id/account_item_txt_money]
+2019-04-04 07:25:18:873 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":{"ELEMENT":"45"},"status":0}
+2019-04-04 07:25:18:874 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:18:875 - info: [debug] [MJSONWP] Responding to client with driver.findElementFromElement() result: {"ELEMENT":"45"}
+2019-04-04 07:25:18:876 - info: [HTTP] <-- POST /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/38/element 200 257 ms - 88
+2019-04-04 07:25:18:877 - info: [HTTP] 
+2019-04-04 07:25:18:884 - info: [HTTP] --> GET /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/45/text
+2019-04-04 07:25:18:885 - info: [HTTP] {}
+2019-04-04 07:25:18:885 - info: [debug] [W3C] Calling AppiumDriver.getText() with args: ["45","d5a4e501-9621-441a-94f4-e7007292e219"]
+2019-04-04 07:25:18:890 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"45"}}
+2019-04-04 07:25:18:919 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"45"}}
+2019-04-04 07:25:18:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-04 07:25:18:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2019-04-04 07:25:19:077 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"-9082","status":0}
+2019-04-04 07:25:19:078 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-04 07:25:19:080 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "-9082"
+2019-04-04 07:25:19:081 - info: [HTTP] <-- GET /wd/hub/session/d5a4e501-9621-441a-94f4-e7007292e219/element/45/text 200 196 ms - 79
+2019-04-04 07:25:19:081 - info: [HTTP] 

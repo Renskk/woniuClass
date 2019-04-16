@@ -1,0 +1,2 @@
+click,1260,70
+input,1301,109,Testing

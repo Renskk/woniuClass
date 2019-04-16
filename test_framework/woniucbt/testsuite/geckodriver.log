@@ -1,0 +1,43 @@
+1554781502066	geckodriver	INFO	geckodriver 0.18.0
+1554781502091	geckodriver	INFO	Listening on 127.0.0.1:31927
+1554781505262	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox 53\firefox.exe with args ["-marionette"]
+1554781510990	Marionette	INFO	Listening on port 31935
+[GPU 41168] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1554781511140	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 41168] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 48496] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rome/common/ipc_channel_win.cc, line 346
+1554781529355	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554781760884	geckodriver	INFO	geckodriver 0.18.0
+1554781760905	geckodriver	INFO	Listening on 127.0.0.1:32029
+1554781764048	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox 53\firefox.exe with args ["-marionette"]
+1554781769595	Marionette	INFO	Listening on port 32037
+1554781769848	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 32528] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 39652] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1554782607689	geckodriver	INFO	geckodriver 0.18.0
+1554782607713	geckodriver	INFO	Listening on 127.0.0.1:32178
+1554782610809	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox 53\firefox.exe with args ["-marionette"]
+1554782616300	Marionette	INFO	Listening on port 32186
+1554782616776	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 52384] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

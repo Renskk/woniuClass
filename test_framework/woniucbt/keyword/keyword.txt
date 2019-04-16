@@ -1,0 +1,10 @@
+open,http://localhost:8088/woniusales
+wait,3
+input,id=username,admin
+input,id=password,admin123
+input,id=verifycode,0000
+click,xpath=(//button[@type='button'])[5]
+wait,5
+check,linktext=注销,注销
+input,id=barcode,6955203655479
+click,xpath=(//button[@type='button'])[5]

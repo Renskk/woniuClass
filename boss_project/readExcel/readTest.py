@@ -2,12 +2,14 @@
 import xlrd,logging
 logging.disable(logging.DEBUG)
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s-%(levelname)s-%(message)s')
+
 class useXlrd(object):
     def __init__(self,excelAddr):
         self.data = xlrd.open_workbook(excelAddr) #获取文件地址
         self.table = self.data.sheet_by_name('Sheet1') #选择表格页面
         self.row = self.table.nrows #获取表格列数
         self.col = self.table.ncols #获取表格列数
+
     def readDate(self):
         table = self.table
         datas = []
@@ -19,6 +21,7 @@ class useXlrd(object):
                 data[title] = value
             datas.append(data)
         return datas
+
     def test(self):
         new = self.readDate()
         for i in range(self.row-1):
@@ -35,6 +38,7 @@ class useXlrd(object):
             new[i]['参数']=s
         logging.debug('最终要求%s'%new)
         return new
+
 if __name__ == '__main__':
     a = useXlrd(r'..\data\接口测试用例.xlsx')
-    a.test()
+    print(a.test())

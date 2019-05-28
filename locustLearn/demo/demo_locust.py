@@ -2,10 +2,6 @@
 from locust import HttpLocust,TaskSet,task
 
 class testLocust(TaskSet):
-
-    # def start(self):
-        # self.index = 0
-        # self.logindata = [['admin', 'admin'], ['admin', '123']]
     @task
     def test1(self):
         self.logindata = [{'verifycode': '0000', 'resulte': 'login-fail', 'username': 'admin', 'password': 'admin'},

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import xlrd
-from locust import HttpLocust,TaskSet,task
+from locust import HttpLocust, TaskSet, task
 
 class Excel(object):
     def __init__(self):

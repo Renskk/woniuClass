@@ -13,7 +13,7 @@ class happyMonkey():
         self.keyboard = PyKeyboard()
         self.dr = webdriver.Firefox()
         self.dr.get('http://192.168.7.20:8080/WoniuSales/')
-        # os.popen(r'"C:\Program Files\Mozilla Firefox\firefox.exe" http://192.168.7.20:8080/WoniuSales/')
+        # os.popen(r'"C:\Program Files\Mozilla Firefox\firefox.exe" http://192.168.7.20:8080/Wn/')
         self.Firefox_windows = uiautomation.WindowControl(ClassName='MozillaWindowClass')
         self.Firefox_windows.Maximize()
         self.Firefox_windows.SetTopmost()

@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-from woniuCBT.cbt_demo.woniu_suite.open_browser import openBrowser
-from woniuCBT.cbt_demo.woniu_suite.woniusales_login import woniuLogin
-from woniuCBT.cbt_demo.woniu_suite.woniusales_sell import woniuSell
+from meClass.cbt_project.cbt_demo.wn_suite.open_browser import openBrowser
+from meClass.cbt_project.cbt_demo.wn_suite.wn_login import wnLogin
+from meClass.cbt_project.cbt_demo.wn_suite.wn_sell import wnSell
 
-
-
-woniuLogin().login()
-woniuSell().sell()
+wnLogin().login()
+wnSell().sell()

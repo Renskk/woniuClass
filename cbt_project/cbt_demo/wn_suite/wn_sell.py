@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from woniuCBT.cbt_demo.woniu_suite.open_browser import openBrowser
+from meClass.cbt_project.cbt_demo.wn_suite.open_browser import openBrowser
 
 
-class woniuSell:
+class wnSell:
     def __init__(self):
         self.dr = openBrowser.open_test()
 

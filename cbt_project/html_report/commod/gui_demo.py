@@ -5,7 +5,7 @@ import time
 class GuiDemo:
     def __init__(self):
         self.dr = webdriver.Chrome()
-        self.dr.get('http://localhost:8080/WoniuBoss2.0/')
+        self.dr.get('http://localhost:8080/Wb/')
         self.dr.maximize_window()
 
     def test01(self,username,password,checkcode):

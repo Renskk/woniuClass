@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import os,time,requests
-from woniuCBT.cbt_demo.woniu_suite.woniusales_login import woniuLogin
+
+from meClass.cbt_project.cbt_demo.wn_suite.wn_login import wnLogin
+
 
 class CmdList:
     def __init__(self):
@@ -22,7 +24,7 @@ class CmdList:
         except:
             os.system('startup.bat')
             time.sleep(20)
-        woniuLogin().login()
+        wnLogin().login()
 
 
 

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import re
-from woniuCBT.stupidMonkey.Monkey_1 import happyMonkey
 
 
 with open('./data/20190403_113634.log')as f:

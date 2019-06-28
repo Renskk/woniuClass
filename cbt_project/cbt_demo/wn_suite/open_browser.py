@@ -12,6 +12,6 @@ class openBrowser:
         if openBrowser.driver is None:
             openBrowser.driver = webdriver.Chrome()
             openBrowser.driver.maximize_window()
-            openBrowser.driver.get('http://localhost:8081/woniusales/')
+            openBrowser.driver.get('http://localhost:8081/wn/')
             time.sleep(0.5)
         return openBrowser.driver

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import unittest,ddt,HTMLTestRunner,requests
-from woniuBoss43TH.readExcel.readTest import useXlrd
+from meClass.test_framework.readExcel.readTest import useXlrd
 excel = useXlrd(r'..\data\接口测试用例.xlsx')
 
 
@@ -17,8 +17,8 @@ class product (unittest.TestCase):
             self.assertIn(da['响应正文'], res.text)
         else:
             se = requests.session()
-            se.post('http://localhost:8080/WoniuBoss2.0/log/userLogin',
-                    {'userName': 'WNCD000', 'checkcode': '0000', 'userPass': 'Woniu123'})
+            se.post('http://localhost:8080/userLogin',
+                    {'userName': 'test', 'checkcode': '0000', 'userPass': 'test123'})
             res = se.post(da['接口地址'],da['参数'])
             self.assertIn(da['响应正文'],res.text)
 

@@ -1,9 +1,0 @@
-1554880216816	geckodriver	INFO	geckodriver 0.18.0
-1554880216843	geckodriver	INFO	Listening on 127.0.0.1:41487
-1554880220023	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox 53\firefox.exe with args ["-marionette"]
-1554880227142	Marionette	INFO	Listening on port 41495
-1554880227988	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 536: TypeError: this.tablesData[table] is undefined
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
